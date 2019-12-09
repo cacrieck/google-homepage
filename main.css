@@ -1,0 +1,99 @@
+body {
+
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial;
+  font-size: 13px;
+  padding-left: 8px;
+  padding-right: 22px;
+  padding-top: 10px;
+}
+
+.bottomnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-family: Arial;
+  font-size: 13px;
+  border: 1px solid gainsboro;
+  background-color: gainsboro;
+}
+
+.left {
+  float: left;    
+}
+
+.left a {
+  display: block;
+  padding: 7px 10px;
+  text-decoration: none;overflow: hidden;
+  color: #3c3c3c;
+}
+
+.right {
+  float: right;
+}
+
+.right a {
+  display: block;
+  padding: 7px 10px;
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+#button {
+  background-color: DodgerBlue;
+  border-radius: 1px;
+  color: white;
+  padding: 8px 16px;
+
+}
+
+.searchboxtext {
+	border-radius: 25px;
+	border: 1px solid gainsboro;
+  width: 500px;
+  height: 40px;
+  background-image: url('/home/cacrieck/the_odin_project/google-homepage/search_icon.png');
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+.searchbutton {
+  background-color: #f0f0f0;
+  padding: 10px 18px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 6px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+  color: #787878;
+  cursor: pointer;
+}
+
+.searchbutton:hover {
+  color: #3c3c3c;
+  border: 1px solid #b4b4b4;
+}
+
+.container {
+	text-align: center;
+  margin-top: 140px;
+}
+
+
