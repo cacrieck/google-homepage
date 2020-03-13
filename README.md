@@ -16,7 +16,7 @@ Project is created with:
 * CSS
 
 ## Status
-Project is: Incomplete
+Project is: Complete
 
 ## Contact
 Created by Chris Rieck
